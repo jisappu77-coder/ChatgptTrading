@@ -23,6 +23,8 @@ jobs:
         with:
           node-version: "20"
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Install dependencies
         working-directory: frontend
         run: npm install
